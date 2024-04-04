@@ -1,0 +1,54 @@
+.genre-filter-section {
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+
+    width: 100%;
+
+    padding: 8px;
+    border-radius: 8px;
+
+    background-color: #F1EFF1;
+
+    >div, >header  {
+        width: 100%;
+
+        display: flex;
+        align-items: center;
+        
+    }
+
+    >header {
+        justify-content: space-between;
+
+        .clear-filter {
+            font-size: 14px;
+            font-weight: 600;
+            color: #da3636;
+
+            cursor: pointer;
+        }
+    }
+
+    .filter-buttons-container {
+
+        height: fit-content;    
+        gap: 8px; 
+        flex-wrap: wrap;
+
+        justify-content: center;
+
+        .filter-button {
+            padding-inline: 8px;
+            padding-block: 5px;
+
+            background-color: #DBDADB;
+            color: black;
+            border-radius: 4px;
+        }
+        .filter-button.active {
+            border: 2px solid black
+        }
+    }
+}

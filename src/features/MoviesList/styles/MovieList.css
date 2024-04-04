@@ -1,0 +1,40 @@
+
+.movie-list-section {
+    width: 100%;
+
+    >table {
+        width: 100%;
+        color: black;
+
+        border-collapse: collapse;
+
+        >thead {
+
+            .movie-data-row {
+                font-weight: 600;
+                background-color: #F1EFF1;
+                
+
+                >td {
+                    border: 1px solid #e0e0e0;      
+                    padding: 4px;              
+                }
+            }
+        }
+        >tbody {
+
+            .movie-data-row:hover {
+                background-color: #F1EFF1;                
+
+                
+            }
+            .movie-data-row {
+                >td {
+                    border: 1px solid #e0e0e0;
+                    padding: 4px;
+                }
+            }
+            
+        }
+    }
+}

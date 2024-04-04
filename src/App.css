@@ -1,0 +1,34 @@
+button {
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: none;
+    outline: none; 
+}
+
+.app-container {
+    width: 100%;
+    height: fit-content;
+
+    min-height: 100vh;
+    min-width: 240px;
+    padding: 12px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    #main {
+        >h1 {
+            text-align: center;
+        }
+        width: 80%;
+
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+}
